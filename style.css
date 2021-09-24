@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    box-sizing: border-box;
+    font-family: "Nunito";
+    /* font-size: 15px; */
+}
+
+h1 {
+    font-size: 20;
+    color: maroon;
+    text-align: center;
+    font-weight: bold;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+.main {
+    margin: 2%;
+}
+
+.card1 {
+    width: 40%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+.container {
+    justify-content: right;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.des {
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.main_overview {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.colorstrip {
+    width: 100%;
+    height: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.overview_card {
+    flex-basis: 250px;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 21px;
+    height: 301px;
+    border: 1px solid darkblue;
+    border-radius: 19px;
+    color: #fff;
+    background-color: white;
+}
+
+.main_overview {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+}
+
+.topnav a.active {
+    color: black;
+}
