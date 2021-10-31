@@ -8,5 +8,3 @@ This is a static website. It shows the Seasonal Rain of Mumbai for the last deca
 2. CSS
 3. Chartjs
 
-## Hosting Link 
-https://devesh-2002.github.io/Mumbai-Rain/
